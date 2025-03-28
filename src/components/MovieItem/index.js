@@ -7,16 +7,9 @@ import 'reactjs-popup/dist/index.css'
 
 import './index.css'
 
-let obj1 = {
-  id: '612271141bf93653809cdccb',
-  thumbnailUrl: 'https://assets.ccbp.in/frontend/react-js/war-img.png',
-  videoUrl: 'https://www.youtube.com/watch?v=tQ0mzXRk-oM',
-  categoryId: 'ACTION',
-}
-
-let MovieItem = props => {
-  let {obj} = props
-  let {thumbnailUrl, videoUrl} = obj
+const MovieItem = props => {
+  const {obj} = props
+  const {thumbnailUrl, videoUrl} = obj
   return (
     <Popup
       modal
